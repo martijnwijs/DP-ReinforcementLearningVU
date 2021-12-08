@@ -86,6 +86,8 @@ def partC(simulationCount, capacity, T, fares, optimal_p):
     print("Sold tickets: ", simulationTickets[0][:10])
     print("Remaining capacities: ", simulationCapacities[0][:10])
 
+    print(simulationCapacities)
+    #plt.plot(simulationCapacities, ))
 
 def partD(simulationCount, capacity, T, fares, optimal_p):
     #     Simulation
